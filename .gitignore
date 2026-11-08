@@ -1,0 +1,21 @@
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.log
+.DS_Store
+
+# Variables de entorno (Semana 8)
+.env
+.env*.local
+
+# Proyectos nativos generados (prebuild)
+/ios
+/android
+
+# OJO: la carpeta drizzle/ (migraciones) SÍ se versiona en Git
+
+# Credenciales: NUNCA van a GitHub. Se versiona .env.example, no .env
+.env.*
+!.env.example
